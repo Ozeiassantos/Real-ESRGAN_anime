@@ -1,18 +1,19 @@
 # ignored folders
-datasets/*
-experiments/*
-results/*
-tb_logger/*
-wandb/*
-tmp/*
-weights/*
 
-version.py
+# datasets/*
+# experiments/*
+# results/*
+# tb_logger/*
+# wandb/*
+# tmp/*
+#weights/*
+
+# version.py
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# __pycache__/
+# *.py[cod]
+# *$py.class
 
 # C extensions
 *.so
@@ -24,7 +25,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
+# .eggs/
 lib/
 lib64/
 parts/

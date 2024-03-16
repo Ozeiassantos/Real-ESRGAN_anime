@@ -154,7 +154,7 @@ You can merge several folders into one meta_info txt. Here is the example:
 
     Train with **a single GPU**:
     ```bash
-    python realesrgan/train.py -opt options/train_realesrgan_x4plus.yml --auto_resume
+    python realesrgan/train.py -opt options/train_realesrgan_x4pluss.yml --auto_resume
     ```
 
 ## Finetune Real-ESRGAN on your own dataset

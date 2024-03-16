@@ -30,7 +30,7 @@ poisson_scale_range2: [0.05, 2.5]
 gray_noise_prob2: 0.4
 jpeg_range2: [30, 95]
 
-gt_size: 256 #256 default
+gt_size: 128 #256 default
 queue_size: 180
 
 # dataset and data loader settings
@@ -61,7 +61,7 @@ datasets:
 
     final_sinc_prob: 0.8
 
-    gt_size: 256 #256 default
+    gt_size: 128 #256 default
     use_hflip: True
     use_rot: False
 
@@ -120,10 +120,10 @@ train:
 
   scheduler:
     type: MultiStepLR
-    milestones: [40000] # 400000 defalt
+    milestones: [1000] # 400000 defalt
     gamma: 0.5
 
-  total_iter: 40000   # 400000 defalt
+  total_iter: 1000   # 400000 defalt
   warmup_iter: -1  # no warm up
 
   # losses
